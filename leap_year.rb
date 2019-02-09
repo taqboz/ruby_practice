@@ -9,3 +9,7 @@ line_size.times do
     print year," is not a leap year\n"
   end
 end
+
+
+
+#### 閏年の判定問題 ####

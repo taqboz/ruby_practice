@@ -111,3 +111,9 @@ def solution(m, n)
 end
 
 puts solution(5, 8)
+
+
+
+#### bitXORの問題 ####
+# 試験中に実際に実装しようとしたもの
+# 問題内容はbitxor.rbを参照
