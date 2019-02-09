@@ -1,3 +1,9 @@
+#### bitXORの問題 ####
+#例：
+#  1 XOR 1 = 0, 0 XOR 0 = 0
+#  1 XOR 0 = 1, 0 XOR 1 = 1
+
+
 def solution(m, n)
   x = 0
   #答えの入る変数xを定義
@@ -8,9 +14,6 @@ def solution(m, n)
   #n, n+1, … , m-1, m
     x = x ^ i
     #bitXOR(bit演算子)で同じ位置のbitを比較
-    #例：
-    #  1 XOR 1 = 0, 0 XOR 0 = 0
-    #  1 XOR 0 = 1, 0 XOR 1 = 1
 
     m += 1
     #iに1を足して代入
